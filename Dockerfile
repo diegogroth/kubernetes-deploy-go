@@ -1,4 +1,4 @@
-FROM golang:1.11
+FROM golang:1.25.3
 EXPOSE 80
 COPY ./bin/hello-server /usr/local/bin/
 ENV GOKUBE v55
